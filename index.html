@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Legend Story</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <div id="start">
+            <h1>A Legend Story</h1>
+            <p>
+                説明
+            </p>
+            <button onclick="start()">始める</button>
+        </div>
+        <div id="game">
+            <div id="logDiv"></div>
+            <span id="selectText">test</span><br/>
+            <button onclick="moveSelect(-1)">←</button>
+            <button onclick="decide()">決定</button>
+            <button onclick="moveSelect(1)">→</button>
+        </div>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/style.css"/>
+    </body>
+</html>
